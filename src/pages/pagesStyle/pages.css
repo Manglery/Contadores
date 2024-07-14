@@ -1,0 +1,154 @@
+.page__container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  background-color: var(--body-light);
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.page___sectionOne {
+  width: 100%;
+  background-color: var(--body-black);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.page___sectionOne h1 {
+  color: var(--text-color-white);
+  font-size: 20px;
+}
+
+/* Birds__sectionTwo */
+
+.page___sectionTwo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.page___sectionTwo__form {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  align-items: end;
+  gap: 20px;
+  color: var(--text-color-gray);
+}
+
+.page___sectionTwo__form div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.page___sectionTwo__form label {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.page___sectionTwo__form input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  padding-left: 15px;
+  background-color: var(--body-white);
+  box-shadow: 0 0 10px -2px var(--body-grayLigth);
+}
+
+.page___sectionTwo__form select {
+  width: 100%;
+  height: 40px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  padding-left: 15px;
+  background-color: var(--body-white);
+  box-shadow: 0 0 10px -2px var(--body-grayLigth);
+}
+
+.page___sectionTwo button {
+  font-size: 13px;
+  font-weight: 600;
+  width: 150px;
+  height: 50px;
+  padding: 0 15px;
+  background-color: transparent;
+  border: 2px solid var(--body-darkBlue);
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.page___sectionTwo button:hover {
+  background-color: var(--body-black);
+  color: var(--text-color-white);
+}
+
+.page___sectionThree {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* .page_buttonsContainer */
+
+.page_buttonsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.page_buttonsContainer button {
+  width: 100px;
+  height: 35px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid var(--body-darkBlue);
+  transition: 0.4s ease;
+  background-color: var(--body-darkBlue);
+  color: var(--text-color-white);
+  border-radius: 5px;
+}
+
+.page_buttons_red {
+  border: 1px solid var(--body-red) !important;
+  background-color: var(--body-red) !important;
+  color: var(--text-color-white) !important;
+}
+
+.page_buttons_green {
+  border: 1px solid var(--body-green) !important;
+  background-color: var(--body-green) !important;
+  color: var(--text-color-white) !important;
+}
+
+@media (max-width: 900px) {
+  .page__container {
+    padding-top: 70px;
+  }
+
+  .page___sectionTwo {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+}

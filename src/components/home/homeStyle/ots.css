@@ -1,0 +1,100 @@
+.ot_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.ot_formContainer {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.otForm_div {
+  width: 100%;
+  display: flex;
+  background-color: var(--body-grayBlue);
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--body-grayBlue);
+}
+
+.otForm_div label {
+  font-size: 20px;
+}
+
+.otForm_div input {
+  width: 100%;
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+  color: var(--text-color-white);
+  font-weight: 400;
+}
+.otForm_div input::placeholder {
+  color: rgba(235, 235, 235, 0.707);
+}
+
+.otForm_div button {
+  font-size: 20px;
+  background-color: var(--body-white);
+  padding: 10px;
+}
+
+.ot_sectionOne {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.ot_sectionOne h1 {
+  font-size: 18px;
+}
+
+.ot_sectionOne_div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 5px;
+}
+
+.ot_sectionOne_div h2 {
+  font-size: 16px;
+}
+
+.ot_sectionOne_div p {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(234, 230, 230);
+  border-radius: 5px;
+}
+
+.ot_sectionOne_div ul {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.ot_sectionOne_div li {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ot_sectionOne_div span {
+  width: 15px;
+  height: 15px;
+  border: 1px solid var(--body-grayBlue);
+  border-radius: 50%;
+}

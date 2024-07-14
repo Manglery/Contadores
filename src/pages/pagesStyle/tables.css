@@ -1,0 +1,72 @@
+.table__container {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: auto;
+}
+
+.table__container th,
+.table__container td {
+  min-width: 90px;
+  border: 1px solid #b6b6b6;
+  padding: 8px;
+  text-align: left;
+}
+
+.table__container td {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.table__container th {
+  height: 45px;
+  background-color: var(--body-grayBlue);
+  padding: 0.5em 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-color-white);
+  text-align: center;
+}
+
+.tablle__tdButton div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.tablle__tdButton i {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.TableBirds_paginations_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.TableBirds_paginations_container i {
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--text-color-gray);
+  cursor: pointer;
+}
+
+.TableBirds_paginations_number {
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+  color: var(--text-color-gray);
+}
+
+.TableBirds_paginations_number p {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.TableBirds_paginations_number p:hover {
+  color: var(--text-color-red);
+}

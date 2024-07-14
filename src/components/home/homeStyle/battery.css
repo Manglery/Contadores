@@ -1,0 +1,104 @@
+.battery_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.battery_formContainer {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.batteryForm_div {
+  width: 100%;
+  display: flex;
+  background-color: var(--body-grayBlue);
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--body-grayBlue);
+}
+
+.battery_formContainer label {
+  font-size: 20px;
+}
+
+.batteryForm_div input {
+  width: 100%;
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+  color: var(--text-color-white);
+  font-weight: 400;
+}
+.batteryForm_div input::placeholder {
+  color: rgba(235, 235, 235, 0.707);
+}
+
+.batteryForm_div button {
+  font-size: 20px;
+  background-color: var(--body-white);
+  padding: 10px;
+}
+
+.battery_sectionOne {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.battery_sectionOne h1 {
+  font-size: 18px;
+}
+
+.battery_sectionOne_div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 5px;
+}
+
+.battery_sectionOne_div h2 {
+  font-size: 16px;
+}
+
+.battery_sectionOne_div p {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(234, 230, 230);
+  border-radius: 5px;
+}
+
+.battery_sectionOne_div ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(234, 230, 230);
+}
+
+.battery_sectionOne_div li {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.battery_sectionOne_div span {
+  width: 15px;
+  height: 15px;
+  border: 1px solid var(--body-grayBlue);
+  border-radius: 50%;
+}
